@@ -23,10 +23,10 @@ const image_src = {
 
 const StarIcon = () => {
   return (
-    <Box display={'inline-block'}>
-      <Tooltip title={<b>محبوب کاربران</b>} placement='top' arrow>
+    <Box display='inline-block'>
+      <Tooltip title={<b className='vazir_matn'>محبوب کاربران</b>} placement='top' arrow>
         <IconButton>
-          <AiOutlineStar size={20} color={"gold"} />
+          <AiOutlineStar className='AiOutlineStarShadow' size={20} color={"gold"} />
         </IconButton>
       </Tooltip>
     </Box>

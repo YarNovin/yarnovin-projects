@@ -4,8 +4,16 @@
     font-style: normal;
 }
 
+.vazir_matn {
+    font-family: 'VazirMatnLight';
+}
+
+.AiOutlineStarShadow {
+    -webkit-filter: drop-shadow(3px 3px 2px gold);
+    filter: drop-shadow(3px 3px 4px  gold);
+}
+
 ::-webkit-scrollbar {
-    /* width */
     width: 12px;
 }
 
@@ -27,7 +35,6 @@
     background: rgb(218, 218, 218);
 }
 
-
 .hr {
     display: inline-block;
 }
@@ -38,4 +45,3 @@
     border-top: 2px solid blueviolet;
     margin-top: 0.5em;
 }
-    
