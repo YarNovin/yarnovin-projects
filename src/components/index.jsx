@@ -5,19 +5,8 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import '../assets/css/style.css';
-import { createTheme } from '@mui/system';
 
-const theme = createTheme({
-    breakpoints: {
-        values: {
-            xs: 0,
-            sm: 600,
-            md: 900,
-            lg: 1200,
-            xl: 1536
-        }
-    }
-})
+
 
 export default function YarnovinProjectsIndex() {
     return (
@@ -34,11 +23,11 @@ export default function YarnovinProjectsIndex() {
                     </div>
                 </Typography>
             </Box>
-            <Box mt={3}>
-                <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+            <Box mt={3} display={'fixed'}>
+                <Grid container spacing={{ xs: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 1 }}>
                     {
                         Yarnovin.InformationProjects.map((el, index) => (
-                            <Grid item xs={2} sm={4} md={3} key={index}>
+                            <Grid item xs={12} sm={4} md={3} key={index}>
                                 <YarnovinProject
                                     project_name={el.title} project_bio={el.bio}
                                     project_src={el.src} image_src={el.title}
