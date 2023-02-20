@@ -11,19 +11,13 @@ import '../assets/css/style.css';
 export default function YarnovinProjectsIndex() {
     return (
         <>
-            {
-                /**
-                 * Yarnovin Projects   
-                 */
-            }
-            <Box mt={2}>
+            <Box mt={3}>
                 <Typography fontFamily={'VazirMatnLight'} fontWeight='bold' variant="h4" align='center' component="h4">
                     <div className='hr'>
                         پروژه های مجموعه یارنوین
                     </div>
                 </Typography>
-            </Box>
-            <Box mt={3} display={'fixed'}>
+                <br />
                 <Grid container spacing={{ xs: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 1 }}>
                     {
                         Yarnovin.InformationProjects.map((el, index) => (
