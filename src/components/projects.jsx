@@ -45,15 +45,15 @@ export default function YarnovinProject(Props) {
           <Typography gutterBottom variant="h5" component="div" fontWeight='bold' display='inline-block' fontFamily='VazirMatnLight'>
             {Props.project_name}{Props.is_popular && true ? <StarIcon /> : ''}{Props.is_incoming && true ? ' (بزودی) ' : ''}
           </Typography>
-          <Typography className='vazir_matn' variant="body2" color="text.secondary" fontFamily='VazirMatnLight'>
+          <Typography variant="body2" color="text.secondary" fontFamily='VazirMatnLight'>
             {Props.project_bio}
           </Typography>
         </CardContent>
-        <CardActions disableSpacing>
+        <CardActions disableSpacing style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <Button size="large" disabled={Props.is_incoming && true ? true : false}>
             <Typography fontWeight='bold' fontFamily='VazirMatnLight'>
               <Link href={Props.project_src} style={{ textDecoration: 'none' }}>
-              مشاهده
+                مشاهده
               </Link>
             </Typography>
           </Button>
