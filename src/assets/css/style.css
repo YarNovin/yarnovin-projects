@@ -9,9 +9,11 @@
     font-family: 'VazirMatnLight';
 }
 
+
+
 .AiOutlineStarShadow {
     -webkit-filter: drop-shadow(3px 3px 2px gold);
-    filter: drop-shadow(1px 2px 4px  gold);
+    filter: drop-shadow(1px 2px 4px gold);
 }
 
 ::-webkit-scrollbar {
@@ -45,4 +47,5 @@
     display: block;
     border-top: 2px solid blueviolet;
     margin-top: 0.5em;
+    filter: drop-shadow(1px 2px 4px blueviolet);
 }

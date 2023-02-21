@@ -12,7 +12,7 @@ const InformationProjects = [
     },
     {
         title: 'انجمن یارنوین',
-        bio: 'انجمن پرسخ و پاسخ یارنوین برای برنامه نویسان سطح کشور',
+        bio: 'انجمن پرسش و پاسخ برنامه نویسان یارنوین',
         src: 'https://forum.yarnovin.ir/'
     },
     {
