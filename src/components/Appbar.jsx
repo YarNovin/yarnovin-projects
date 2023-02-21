@@ -7,7 +7,20 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import '../assets/css/style.css';
 
-const pages = ['تماس با ما', 'درباره ما', 'سرویس ها'];
+const pages = [
+    {
+        menu_name: 'درباره ما',
+        src: 'about'
+    },
+    {
+        menu_name: 'سرویس ها',
+        src: 'services'
+    },
+    {
+        menu_name: 'تماس با ما',
+        src: 'contact-us'
+    }
+];
 
 function ResponsiveAppBar() {
     return (
@@ -30,28 +43,30 @@ function ResponsiveAppBar() {
                         یارنوین
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, direction: 'ltr' }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                sx={{ color: 'white' }}
-                            >
-                                <Typography fontWeight={700} fontFamily={'VazirMatnLight'}>
-                                    {page}
-                                </Typography>
-                            </Button>
-                        ))}
+                        {
+                            pages.map((el, index) => (
+                                <Button size="large">
+                                    <Typography fontWeight={700} fontFamily='VazirMatnLight'>
+                                        <a href={el.src} style={{ color: 'white', textDecoration: 'none' }}>
+                                            {el.menu_name}
+                                        </a>
+                                    </Typography>
+                                </Button>
+                            ))
+                        }
                     </Box>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                sx={{ color: 'white' }}
-                            >
-                                <Typography fontWeight={700} fontFamily={'VazirMatnLight'}>
-                                    {page}
-                                </Typography>
-                            </Button>
-                        ))}
+                        {
+                            pages.map((el, index) => (
+                                <Button size="large">
+                                    <Typography fontWeight={700} fontFamily='VazirMatnLight'>
+                                        <a href={el.src} style={{ color: 'white', textDecoration: 'none' }}>
+                                            {el.menu_name}
+                                        </a>
+                                    </Typography>
+                                </Button>
+                            ))
+                        }
                     </Box>
                 </Toolbar>
             </Container>
