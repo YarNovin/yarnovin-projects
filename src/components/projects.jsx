@@ -38,7 +38,7 @@ export default function YarnovinProject(Props) {
     <>
       <Card style={{ height: '100%' }}>
         <CardMedia
-          sx={{ height: 140 }}
+          sx={{ height: 130 }}
           image={image_src[Props.image_src]}
         />
         <CardContent>

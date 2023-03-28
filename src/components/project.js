@@ -17,7 +17,7 @@ const InformationProjects = [
     },
     {
         title: 'سرویس هوشیار',
-        bio: 'سرویس هوش مصنوعی هوشیار',
+        bio: 'سرویس پیشرفته هوش مصنوعی هوشیار',
         src: 'https://t.me/HooshYarRoBot',
         popular_porject: true
     },

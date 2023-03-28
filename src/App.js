@@ -4,7 +4,7 @@ import {
     RouterProvider
 } from 'react-router-dom';
 import Services from "./components/page/services";
-import AboutUs from "./components/page/about";
+import ContactUs from "./components/page/contact_us";
 
 const Route = createBrowserRouter([
     {
@@ -16,8 +16,8 @@ const Route = createBrowserRouter([
         element: <Services />
     },
     {
-        path: 'about',
-        element: <AboutUs />
+        path: 'contact-us',
+        element: <ContactUs />
     }
 ]);
 

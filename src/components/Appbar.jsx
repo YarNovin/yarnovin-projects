@@ -9,10 +9,6 @@ import '../assets/css/style.css';
 
 const pages = [
     {
-        menu_name: 'درباره ما',
-        src: 'about'
-    },
-    {
         menu_name: 'سرویس ها',
         src: 'services'
     },
