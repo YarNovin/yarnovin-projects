@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac72498b.css",
+    "main.js": "/static/js/main.5d069495.js",
+    "static/media/yarnovin_city.png": "/static/media/yarnovin_city.5c253331102965872796.png",
+    "static/media/Yarnovinlogo.png": "/static/media/Yarnovinlogo.e587695bcfcf0f330086.png",
+    "static/media/forum_yarnovin.png": "/static/media/forum_yarnovin.2fad381bed3c03ba6ab5.png",
+    "static/media/vazir_matn_light.woff2": "/static/media/vazir_matn_light.a929468e39d61ead9a4a.woff2",
+    "static/media/internet.png": "/static/media/internet.79888790cb0216e1f361.png",
+    "static/media/telegram.png": "/static/media/telegram.2ae5941a4f5b55528e87.png",
+    "static/media/github.png": "/static/media/github.cec9c75660e0ff474326.png",
+    "static/media/codeyar_web.png": "/static/media/codeyar_web.4c2a12b02844f447d989.png",
+    "static/media/codeyar_bot.png": "/static/media/codeyar_bot.e61f02345a0716f58188.png",
+    "static/media/hooshyar_bot.png": "/static/media/hooshyar_bot.4e499ba50c75f19ed126.png",
+    "index.html": "/index.html",
+    "main.ac72498b.css.map": "/static/css/main.ac72498b.css.map",
+    "main.5d069495.js.map": "/static/js/main.5d069495.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac72498b.css",
+    "static/js/main.5d069495.js"
+  ]
+}
